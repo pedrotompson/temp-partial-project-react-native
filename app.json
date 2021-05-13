@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "StartupProject",
+    "slug": "startupproject",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./src/assets/visual/icon.png",
+    "splash": {
+      "image": "./src/assets/visual/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#050934"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./src/assets/visual/adaptive-icon.png",
+        "backgroundColor": "#050934"
+      }
+    },
+    "web": {
+      "favicon": "./src/assets/visual/favicon.png"
+    },
+    "description": "Projeto desenvolvido para Linqtree",
+    "githubUrl": "https://github.com/pedrotompson/startup-project-mobile"
+  }
+}
